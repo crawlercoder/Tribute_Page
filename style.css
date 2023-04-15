@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.header{
+    padding: 2rem;
+    margin:1rem 0;
+    text-align: center;
+    
+}
+
+header > .title{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+
+.container{
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin: 2rem auto;
+}
+
+
+.tribute {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0 auto;
+    background: #ffffff;
+    color: black;
+    align-items: center;
+    padding: 0 0 0 1rem;
+    box-shadow: 0px 0px 15px 9px #1d1d1d;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.tribute img {
+    max-width: 100%;
+    /* text-align: center; */
+    margin: 3rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 3px solid #ededed;
+    outline: 3px solid #000000;
+    outline-offset: 7px;
+}
+
+hr{
+    margin: 3rem auto;
+    width: 40px;
+    border-style: dotted none none;
+    border-width: 10px;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 50rem;
+}
+
+h2 {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.bio p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    color:whitesmoke;
+    margin:20px 0px;
+}
+
+.foothr{
+    margin: 0px auto;
+    width: 55%;
+    border-style: dashed none none;
+    border-width: 1px;
+}
