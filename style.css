@@ -19,9 +19,11 @@ body{
     
 }
 
+
 header > .title{
     margin-bottom: 1rem;
     font-size: 3rem;
+    font-weight: bold;
 }
 
 
@@ -48,6 +50,11 @@ header > .title{
 .tribute blockquote{
     text-align: center;
     font-size: 3rem;
+}
+
+blockquote p{
+    margin-top: 1em;
+    font-size: 2rem;    
 }
 
 
