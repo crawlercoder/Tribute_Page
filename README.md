@@ -1,2 +1,2 @@
-# oibsip_2
+# Tribute Page
 Tribute Page for Swami Vivekananda
